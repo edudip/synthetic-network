@@ -10,7 +10,6 @@ use std::cell::RefCell;
 use std::cmp::min;
 use rand::Rng;
 
-
 // Loss app: simulate probabilistic packet loss
 
 #[derive(Clone,Debug)]

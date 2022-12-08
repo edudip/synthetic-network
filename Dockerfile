@@ -1,5 +1,4 @@
-FROM node:12.20.2
-
+FROM node:18
 # Linux networking tools
 RUN apt-get update && apt-get install -y \
     iproute2 ethtool iputils-ping iperf3 python3 lsof tcpdump net-tools
